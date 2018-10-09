@@ -43,6 +43,9 @@ a:visited {
   background-color: #aaa;
   transition: background-color 0.2s linear;
 }
+.logo {
+  width: 50%;
+}
 .nav-container .nav-row {
   max-width: 1200px;
   width: 100%;

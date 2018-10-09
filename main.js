@@ -6,7 +6,7 @@ $(document).ready(function() {
         var scrollTop = $(window).scrollTop();
 
         if (scrollTop >= height - 40) {
-            $('.nav-container').addClass('solid-nav');
+            $('.nav-container').addClass('solid-nav', 'logo');
         } else {
             $('.nav-container').removeClass('solid-nav');
         }
