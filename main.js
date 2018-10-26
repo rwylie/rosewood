@@ -12,7 +12,20 @@ $(document).ready(function() {
         }
 
     });
+
+    $(window).scroll(function() {
+      if ($(window).scrollTop() > 0) {
+        $('#logo').fadeOut();
+      }
+      else {
+        $('#logo').fadeIn();
+      }
+    });
 });
+
+//hide image on scroll
+
+
 
 // Slidshow
 
