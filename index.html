@@ -3,6 +3,7 @@
 
 <head>
   <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link rel="stylesheet" href="styles.css">
   <title> Rosewood Images </title>
   <script src="main.js"></script>
@@ -28,16 +29,18 @@
 
 
   <div class="container" id="getToKnowMe">
-    <div class="row">
+    <div class="row" data-aos="fade-up" data-aos-duration="2000">
+
     <img id="pinkRectangle" src="assets/pinkrectangle.png">
+
     <div id="homepagePhotos">
     <!-- <div >
       <img id="photoOne"class="asset" src="assets/homepage/photo1.png">
       <img class="asset" src="assets/homepage/text.png">
     </div> -->
 
-      <img id="photoOne"class="asset" src="assets/homepage/photo1.png">
-      <img id="photoTwo"class="asset" src="assets/homepage/blueskirt.png">
+      <img id="photoOne"class="asset" src="portfolio/featured/fancydresses08.png">
+      <img id="photoTwo"class="asset" src="portfolio/featured/amazingphotos.png">
       <!-- <img class="asset" src="assets/homepage/text.png"> -->
 
   </div>
@@ -46,14 +49,11 @@
 
   </div>
 
-  <div class="container" id="Investment">
+  <div class="container" id="social">
     <div class="row">
-      <h1>
-        Section
-      </h1>
-      <p>
-        The man in black fled across the desert and the gunslinger followed.
-      </p>
+      <div class="growth">
+      <img id="social-media"src="assets/homepage/social.png">
+    </div>
     </div>
   </div>
 
@@ -118,5 +118,9 @@
 </div>
 
   <script src="main.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>
